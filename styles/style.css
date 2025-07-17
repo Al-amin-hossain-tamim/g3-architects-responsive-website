@@ -34,6 +34,13 @@
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main>section{
+    margin-top: 130px;
+}
 
 /* shared style end */
 
@@ -91,3 +98,27 @@
         flex-direction: column;
     }
 }
+
+/* teams and feature related style start  */
+
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-feature{
+    margin-left: 70px;
+    max-width: 530px;
+}
+.feature-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+#quick-list{
+    font-weight: 500;
+}
+/* teams and feature related style end */
