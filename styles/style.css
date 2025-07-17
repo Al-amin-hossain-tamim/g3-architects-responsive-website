@@ -131,6 +131,9 @@ main>section{
     display:flex;
     gap: 140px;
 }
+.feature img{
+    width: 100%;
+}
 .feature .section-title{
     border-left: 5px solid #FF900E;
     padding-left: 20px;
@@ -148,6 +151,18 @@ main>section{
     margin-bottom: 0px;
     margin-top: 0px;
     
+}
+#experience-badge{
+    padding: 45px 42px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#experience-years{
+    font-weight: 700;
+    font-size: 4rem;
+
 }
 
 /* feature section style end */
@@ -208,11 +223,15 @@ main>section{
 
 /* media query  for responsive of header section */
 @media screen and (max-width:576px) {
-    .navbar , .nav-links, .teams{
+    .navbar , .nav-links, .teams, .feature{
         flex-direction: column;
     }
     .team-content{
         margin-left: 20px;
+    }
+    .feature{
+        justify-items: center;
+        margin: 20px;
     }
     .team-img-container, .facts-container, .sponsor-compaines{
         grid-template-columns: 1fr;
@@ -225,6 +244,10 @@ main>section{
         justify-items: center;
         gap: 50px;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
 
 
@@ -233,7 +256,7 @@ main>section{
 
 @media screen and (min-width:576px) and (max-width:992px) {
    
-    .teams{
+    .teams, .feature{
         flex-direction: column;
     }
     .team-content{
@@ -244,5 +267,8 @@ main>section{
         justify-items: center;
         gap: 50px;
     }
-    
+     #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
