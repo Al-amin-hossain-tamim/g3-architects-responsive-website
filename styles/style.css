@@ -95,7 +95,7 @@ main>section{
 /* banner related style end */
 
 
-/* teams and feature related style start  */
+/* teams  related style start  */
 
 .teams{
     align-items: center;
@@ -123,7 +123,34 @@ main>section{
 .team-content-description{
     margin-bottom: 32px;
 }
-/* teams and feature related style end */
+/* teams  related style end */
+
+/* feature section style start */
+
+.feature{
+    display:flex;
+    gap: 140px;
+}
+.feature .section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    
+}
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.feature-title{
+    font-weight: 600px;
+    font-size: 1.25rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+/* feature section style end */
 
 /* some facts related style start */
 
